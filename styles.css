@@ -283,6 +283,70 @@ nav a:hover {
   color: #28a745;
 }
 
+/* Enhanced Teaching & Achievement Styling */
+.teaching-category, .achievement-category {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.current-teaching {
+  background-color: #f8f9fa;
+  border-left: 4px solid #17a2b8;
+}
+
+.previous-teaching {
+  border-left: 4px solid #6c757d;
+}
+
+.grants {
+  border-left: 4px solid #28a745;
+}
+
+.activities {
+  border-left: 4px solid #fd7e14;
+}
+
+.teaching-item, .achievement-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.teaching-item:last-child, .achievement-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.teaching-header, .achievement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.teaching-title, .achievement-title {
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.teaching-period, .achievement-period {
+  background-color: #f1f1f1;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  color: #555;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.teaching-description, .achievement-description {
+  color: #555;
+  font-size: 0.95rem;
+}
+
 /* Footer */
 footer {
     text-align: center;

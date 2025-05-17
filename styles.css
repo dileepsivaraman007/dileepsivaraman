@@ -214,6 +214,75 @@ nav a:hover {
     margin-bottom: 0;
 }
 
+/* Enhanced Project Styling */
+.project-category {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.current-projects {
+  background-color: #f8f9fa;
+  border-left: 4px solid #28a745;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.previous-projects {
+  border-left: 4px solid #6c757d;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.consultancy-projects {
+  border-left: 4px solid #007bff;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.project-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.project-title {
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.project-period {
+  background-color: #f1f1f1;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  color: #555;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.project-description {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.current .project-title {
+  color: #28a745;
+}
+
 /* Footer */
 footer {
     text-align: center;

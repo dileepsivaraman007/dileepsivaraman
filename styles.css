@@ -129,6 +129,17 @@ nav a:hover {
     margin-bottom: 0;
 }
 
+/* BART LAB specific styling */
+.bartlab-link {
+  color: #e10000; /* This red color matches the logo you shared */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bartlab-link:hover {
+  text-decoration: underline;
+}
+
 /* About Section */
 .about-section {
     background-color: #fff;

@@ -252,6 +252,12 @@ nav a:hover {
   padding-left: 12px;
 }
 
+/* Optional: add subtle background */
+.publication-category {
+  background-color: #f8f9fa;
+  border-radius: 0 4px 4px 0;
+}
+
 
 /* Enhanced Project Styling */
 .project-category {

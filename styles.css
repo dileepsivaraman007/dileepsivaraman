@@ -214,6 +214,45 @@ nav a:hover {
     margin-bottom: 0;
 }
 
+/* Enhanced Publication Category Styling */
+.publication-category {
+  padding: 6px 0;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  position: relative;
+  font-weight: 600;
+}
+
+.publication-category::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ccc, transparent);
+}
+
+/* Color-coding for different publication types */
+.journal-category {
+  color: #0366d6;
+  border-left: 4px solid #0366d6;
+  padding-left: 12px;
+}
+
+.book-category {
+  color: #28a745;
+  border-left: 4px solid #28a745;
+  padding-left: 12px;
+}
+
+.conference-category {
+  color: #5a43d6;
+  border-left: 4px solid #5a43d6;
+  padding-left: 12px;
+}
+
+
 /* Enhanced Project Styling */
 .project-category {
   margin-bottom: 30px;

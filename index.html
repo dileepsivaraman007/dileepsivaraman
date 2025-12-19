@@ -396,14 +396,28 @@
         </main>
 
         <footer>
-            <div class="social-links">
-                <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="mailto:dileepsivaraman89@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                <a href="cv.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>
-            </div>
-            <p>© 2025 Dileep Sivaraman. All rights reserved.</p>
-        </footer>
+    <!-- Add the visitor counter here, before social links -->
+    <div class="visitor-counter">
+        <p>Total visitors: <span id="visit-count">Loading...</span></p>
+    </div>
+    
+    <div class="social-links">
+        <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:dileepsivaraman89@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="cv.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>
+    </div>
+    <p>© 2025 Dileep Sivaraman. All rights reserved.</p>
+    
+    <!-- Add the script here, at the end of footer -->
+    <script>
+    fetch('https://YOURCODE.goatcounter.com/counter//.json')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('visit-count').textContent = data.count;
+        });
+    </script>
+</footer>
     </div>
 </body>
 </html>

@@ -1015,12 +1015,12 @@ footer {
     width: 100%;
     max-width: 640px;
     padding-top: 36%; /* 16:9 aspect ratio, capped by max-width */
-    margin-top: 14px;
-    border-radius: 6px;
+    margin-top: 6px;
+    border-radius: 3px;
     overflow: hidden;
     background: #000;
 }
-
+ 
 .video-wrapper iframe,
 .video-wrapper video {
     position: absolute;

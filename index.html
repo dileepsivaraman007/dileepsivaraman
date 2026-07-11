@@ -8,407 +8,771 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#home" class="brand"><span class="brand-badge">DS</span> Dileep Sivaraman</a>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
+                    <li><a href="#research">Research</a></li>
                     <li><a href="#publications">Publications</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#news">News</a></li>
                     <li><a href="#teaching">Teaching</a></li>
                     <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
+            <div class="header-social">
+                <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://github.com/dileepsivaraman007" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:dileepsivaraman89@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
 
-        <main>
-            <section id="home" class="section-content">
-                <div class="profile-container">
-                    <div class="profile-image">
-                        <img src="profile-image.jpeg" alt="Dileep Sivaraman">
-                    </div>
-                    <div class="profile-header">
-                        <h1>Dileep Sivaraman</h1>
-                        <h2>Researcher, Medical Robotics | Mahidol University</h2>
-                       <h3><a href="https://bartlab.org/newweb/homepage/" target="_blank" class="bartlab-link">Center for Biomedical and Robotics Technology (BART LAB)</a></h3>
+    <div class="container">
+
+        <section id="home" class="hero">
+            <div class="hero-grid">
+                <div class="hero-photo">
+                    <img src="profile-image.jpeg" alt="Dileep Sivaraman">
+                </div>
+                <div class="hero-content">
+                    <h1>Dileep Sivaraman</h1>
+                    <p class="hero-role">Medical Robotics Researcher</p>
+                    <p class="hero-affil">
+                        Foreign Expert, <a href="https://bartlab.org/newweb/homepage/" target="_blank">Center for Biomedical and Robotics Technology (BART LAB)</a><br>
+                        Mahidol University, Thailand
+                    </p>
+                    <p class="hero-desc">My research sits at the intersection of robotics, biomedical engineering, and physical system modelling &mdash; with a focus on bio-inspired systems, sensorless force estimation, system identification, and probabilistic state estimation for medical robotics.</p>
+                    <div class="hero-buttons">
+                        <a href="Dileep_Sivaraman_CV_updated.pdf" target="_blank" class="btn btn-dark"><i class="fas fa-file-pdf"></i> Download CV</a>
+                        <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                        <a href="https://github.com/dileepsivaraman007" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="mailto:dileepsivaraman89@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Email Me</a>
                     </div>
                 </div>
+            </div>
 
-                <div class="about-section">
-                  <h2>About</h2>
-                  <p>I am a researcher currently working as a foreign expert at Mahidol University, Thailand. My work focuses on medical robotics, sensor fusion, control theory, and surgical robotics, with an emphasis on integrating bio-inspired approaches and advanced control systems to improve healthcare procedures.</p>
-                  
-                  <p>Currently, I work at the <a href="https://bartlab.org/newweb/homepage/" target="_blank">Center for Biomedical and Robotics Technology (BART LAB)</a>, Department of Biomedical Engineering, Faculty of Engineering, Mahidol University, focusing on bio-inspired needle systems for medical applications.</p>
-                  
-                  <p>I am actively seeking research collaborations in the fields of medical robotics, sensor fusion, and control systems. I am passionate about mentoring students and sharing knowledge to help them grow in these fields.</p>
-             
+            <div class="about-section">
+                <h2>About</h2>
+                <p>I am a researcher working at the intersection of robotics, biomedical engineering, and physical system modelling, with a focus on bio-inspired systems, system identification, and probabilistic state estimation. My work centres on sensorless force estimation and the modelling of dynamical interactions in medical robotics, with growing interest in exploiting the dynamics of physical systems for sensing, estimation, and control.</p>
+
+                <p>Currently, I work as a Foreign Expert at the <a href="https://bartlab.org/newweb/homepage/" target="_blank">Center for Biomedical and Robotics Technology (BART LAB)</a>, Faculty of Engineering, Mahidol University, focusing on bio-inspired needle systems for medical applications.</p>
+
+                <p>I am actively seeking research collaborations in the fields of medical robotics, sensor fusion, and control systems. I am passionate about mentoring students and sharing knowledge to help them grow in these fields.</p>
+
+                <div class="info-items">
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <span>Faculty of Engineering, Mahidol University<br>
                         25/25 Puttamonthon 4 Road<br>
                         Salaya, Nakorn Pathom 73170<br>
                         Thailand</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-university"></i>
+                        <span>Foreign Expert, BART LAB, Mahidol University</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Ph.D. Biomedical Engineering, Medical Robotics</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            dileepsivaraman89@gmail.com <br>
+                            dileep.siv@mahidol.ac.th
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        <div class="info-item">
-                            <i class="fas fa-university"></i>
-                            <span>Ph.D. Graduate, BART LAB, Mahidol University</span>
+        <section id="research" class="dashboard-block">
+
+            <div class="section-label">
+                <h2>Research Highlights</h2>
+                <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank">View All Research <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <div class="highlight-banner banner-blue"><i class="fas fa-syringe"></i></div>
+                    <div class="highlight-body">
+                        <h3><a href="#projects">Bio-inspired Needle Systems</a></h3>
+                        <p>Steerable dual-sheath needle systems inspired by insect ovipositor mechanics for minimally invasive biopsy procedures.</p>
+                        <a href="#projects" class="learn-more">Learn more &rarr;</a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-banner banner-green"><i class="fas fa-vial"></i></div>
+                    <div class="highlight-body">
+                        <h3><a href="#projects">Sensorless Force Estimation</a></h3>
+                        <p>SMA-based embedded force sensing and hysteresis-aware state estimation for minimally sensed surgical systems.</p>
+                        <a href="#projects" class="learn-more">Learn more &rarr;</a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-banner banner-purple"><i class="fas fa-chart-line"></i></div>
+                    <div class="highlight-body">
+                        <h3><a href="#publications">Adaptive Polynomial Kalman Filter</a></h3>
+                        <p>Adaptive filtering and model order selection algorithms for nonlinear state estimation and sensor data prediction.</p>
+                        <a href="#publications" class="learn-more">Learn more &rarr;</a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-banner banner-orange"><i class="fas fa-microchip"></i></div>
+                    <div class="highlight-body">
+                        <h3><a href="#projects">Sensor Fusion &amp; Control</a></h3>
+                        <p>Integrating multi-sensor data and control strategies for accurate perception and robust medical robotics.</p>
+                        <a href="#projects" class="learn-more">Learn more &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <div class="panel">
+                    <div class="section-label section-label-tight">
+                        <h2>Research Areas</h2>
+                    </div>
+                    <div class="mini-areas-grid">
+                        <div class="mini-area-item">
+                            <div class="mini-area-icon"><i class="fas fa-syringe"></i></div>
+                            <h4>Bio-inspired Medical Robotics</h4>
+                            <p>Nature-inspired robotic systems for minimally invasive interventions.</p>
                         </div>
-                        <div class="info-item">
-                            <i class="fas fa-user-graduate"></i>
-                            <span>Biomedical Engineering, Medical Robotics</span>
+                        <div class="mini-area-item">
+                            <div class="mini-area-icon"><i class="fas fa-route"></i></div>
+                            <h4>Bio-inspired Control &amp; Path Planning</h4>
+                            <p>Nature-inspired algorithms for navigation and robot motion.</p>
                         </div>
-                            <div class="info-item">
-                                <i class="fas fa-envelope"></i>
-                                <span>
-                                    dileepsivaraman89@gmail.com <br>
-                                    dileep.siv@mahidol.ac.th
-                                </span>
-                            </div>
+                        <div class="mini-area-item">
+                            <div class="mini-area-icon"><i class="fas fa-robot"></i></div>
+                            <h4>Multi-Robot Collaboration</h4>
+                            <p>Cooperative autonomous systems for rescue and disaster-response robotics.</p>
+                        </div>
+                        <div class="mini-area-item">
+                            <div class="mini-area-icon"><i class="fas fa-wave-square"></i></div>
+                            <h4>Intelligent Estimation &amp; Tissue Modeling</h4>
+                            <p>Adaptive filtering, state estimation, and medical tissue models.</p>
+                        </div>
                     </div>
                 </div>
 
-                               <div class="news-section">
-                    <h2>News</h2>
-                    <div class="news-item">
-                        <div class="news-date">Aug 07, 2025</div>
-                        <div class="news-content">Paper accepted in <em>Systems Science &amp; Control Engineering</em> (Taylor &amp; Francis) titled "Dynamic Order Selection Analysis in Adaptive Polynomial Kalman Filtering: Implementation and Integration of Sensor Data and Hybrid Image Processing for Bioinspired Needle Systems"</div>
+                <div class="panel">
+                    <div class="section-label section-label-tight">
+                        <h2>At a Glance</h2>
                     </div>
-                    <div class="news-item">
-                        <div class="news-date">Aug 01, 2025</div>
-                        <div class="news-content">Joined as Foreign Expert at the Faculty of Engineering, Mahidol University</div>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-file-alt"></i></div>
+                            <div class="stat-number">17+</div>
+                            <div class="stat-label">Publications</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Journal Papers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-people-group"></i></div>
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Conference Papers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-diagram-project"></i></div>
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Research Projects</div>
+                        </div>
                     </div>
-                    <div class="news-item">
-                        <div class="news-date">Feb 17, 2025</div>
-                        <div class="news-content">Successfully defended Ph.D. thesis in Biomedical Engineering at Mahidol University</div>
+                    <div class="focus-line"><strong>Focus:</strong> Bio-inspired systems, sensorless force estimation, system identification, and probabilistic state estimation for medical robotics.</div>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <div class="panel">
+                    <div class="section-label section-label-tight">
+                        <h2>Featured Publications</h2>
+                        <a href="#publications">View All Publications <i class="fas fa-arrow-right"></i></a>
                     </div>
-                    <div class="news-item">
-                        <div class="news-date">Jan 2024</div>
-                        <div class="news-content">Published "Adaptive Polynomial Predictive Filter for Sensor Data Estimation and Prediction in Interference Environment" in IET Control Theory and Applications</div>
+
+                    <div class="pub-feature-item">
+                        <div class="pub-feature-icon icon-blue">SYSTEMS<br>SCIENCE</div>
+                        <div class="pub-feature-content">
+                            <h4><a href="https://doi.org/10.1080/21642583.2025.2546839" target="_blank">Dynamic Order Selection Analysis in Adaptive Polynomial Kalman Filtering: Implementation and Integration of Sensor Data and Hybrid Image Processing for Bioinspired Needle Systems</a></h4>
+                            <p class="venue">Systems Science &amp; Control Engineering, 2025</p>
+                            <div class="pub-feature-actions">
+                                <a href="https://doi.org/10.1080/21642583.2025.2546839" target="_blank" class="pill-link"><i class="fas fa-link"></i> DOI</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="news-item">
-                        <div class="news-date">Jan 2024</div>
-                        <div class="news-content">Published "A pack hunting strategy for heterogeneous robots in rescue operations" in Bioinspiration &amp; Biomimetics</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Jul 2023</div>
-                        <div class="news-content">Participated in RoboCup 2023 held in Bordeaux, France as a member of the BART LAB ROBOTICS Team</div>
+
+                    <div class="pub-feature-item">
+                        <div class="pub-feature-icon icon-navy">IET<br>CONTROL</div>
+                        <div class="pub-feature-content">
+                            <h4>Adaptive Polynomial Predictive Filter for Sensor Data Estimation and Prediction in Interference Environment</h4>
+                            <p class="venue">IET Control Theory &amp; Applications, 2024</p>
+                        </div>
                     </div>
                 </div>
 
+                <div class="panel">
+                    <div class="section-label section-label-tight">
+                        <h2>Research Projects</h2>
+                        <a href="#projects">View All Projects <i class="fas fa-arrow-right"></i></a>
+                    </div>
 
-            </section>
-
-            <section id="publications" class="section-content">
-                <h2>Publications</h2>
-                
-                  <h3 class="publication-category journal-category">International Journals</h3>
-                  <ul class="publication-list">
-                    <li>
-                      <p>Sivaraman, D., Pillai, B. M., Wiratkapun, C., Suthakorn, J., & Ongwattanakul, S. (2025). <strong>Dynamic order selection analysis in adaptive polynomial Kalman filtering: implementation and integration of sensor data and hybrid image processing for bio-inspired needle systems.</strong> Systems Science & Control Engineering, 13(1). <a href="https://doi.org/10.1080/21642583.2025.2546839" target="_blank">https://doi.org/10.1080/21642583.2025.2546839</a></p>
-                    </li>
-                    <li>
-                        <p>Sivaraman, D., Pillai, B. M., Ongwattanakul, S., & Suthakorn, J. (2024). <strong>Adaptive Polynomial Predictive Filter for Sensor Data Estimation and Prediction in Interference Environment.</strong> IET Control Theory and Applications.</p>
-                    </li>
-                    <li>
-                        <p>Sivaraman, D., Ongwattanakul, S., Moonjaita, C., Suthakorn, J., & Madhavan Pillai, B. (2024). <strong>A pack hunting strategy for heterogeneous robots in rescue operations.</strong> Bioinspiration & Biomimetics.</p>
-                    </li>
-                    <li>
-                        <p>Sivaraman, Dileep, Songpol Ongwattanakul, Branesh M. Pillai, and Jackrit Suthakorn. (2024). <strong>Adaptive polynomial Kalman filter for nonlinear state estimation in modified AR time series with fixed coefficients.</strong> IET Control Theory & Applications.</p>
-                    </li>
-                    <li>
-                        <p>Pillai, Branesh M., Jackrit Suthakorn, Dileep Sivaraman, et al. (2024). <strong>A heterogeneous robots collaboration for safety, security, and rescue robotics: e-ASIA joint research program for disaster risk and reduction management.</strong> Advanced Robotics 38, no. 3: 129-151.</p>
-                    </li>
-                    <li>
-                        <p>Pillai, Branesh M., Peerapat Owatchaiyapong, Shen Treratanakulchai, Dileep Sivaraman, et al. (2023). <strong>Lower Limb Exoskeleton With Energy-Storing Mechanism for Spinal Cord Injury Rehabilitation.</strong> IEEE Access 11: 133850-133866.</p>
-                    </li>
-                    <li>
-                        <p>Sivaraman, Dileep, Songpol Ongwattanakul, Jackrit Suthakorn, and Branesh M. Pillai. (2023). <strong>Nonlinear Dynamic States' Estimation and Prediction Using Polynomial Predictive Modeling.</strong> IEEE Canadian Journal of Electrical and Computer Engineering 46, no. 3: 185-195.</p>
-                    </li>
-                </ul>
-                
-                  <h3 class="publication-category book-category">Book Chapter</h3>
-                  <ul class="publication-list">
-                    <li>
-                        <p>Sivaraman, D., Pillai, B. M., Suthakorn, J., & Ongwattanakul, S. (2024). <strong>Human–Robot Interaction in Biopsy Procedures: A Biomimetic Dual-Sheath Needle Design Inspired by Insect Ovipositor Mechanics.</strong> In Discovering the Frontiers of Human-Robot Interaction: Insights and Innovations in Collaboration, Communication, and Control (pp. 401-417). Springer Nature Switzerland.</p>
-                    </li>
-                </ul>
-
-                  <h3 class="publication-category conference-category">Conference Proceedings</h3>
-                  <ul class="publication-list">
-                  <li>
-                    <p>Sivaraman, D., Wiratkapun, C., Pillai, B. M., Suthakorn, J., Methachan, B., Nakdhamabhorn, S., & Ongwattanakul, S. (2024). <strong>Hybrid image-based motion tracking and adaptive polynomial Kalman filter for a bio-inspired dual-sheath needle system.</strong> In 2024 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO). IEEE.</p>
-                  </li>
-                  <li>
-                    <p>Pillai, B. M., Siripala, N., Sai-aroon, K., Sivaraman, D., Vinjamuri, R., Chumnanvej, S., & Suthakorn, J. (2024). <strong>Enhancing post-stroke upper limb rehabilitation through haptic feedback in virtual reality-based gaming.</strong> In 2024 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO). IEEE.</p>
-                  </li>
-                  <li>
-                    <p>Sivaraman, D., Ongwattanakul, S., & Suthakorn, J. (2023). <strong>Adaptive Polynomial Predictive Filter: Solving Inconsistent and Interrupted Sensor Data Challenges.</strong> In 2023 IEEE International Conference on Robotics and Biomimetics (ROBIO). IEEE.</p>
-                  </li>
-                  <li>
-                    <p>Sivaraman, D., Pillai, B. M., & Ongwattanakul, S. (2022). <strong>Energy Optimized Path Planning and Decision Making for Multiple Robots in Rescue Operations.</strong> In IECON 2022–48th Annual Conference of the IEEE Industrial Electronics Society (pp. 1-6). IEEE, Brussels, Belgium.</p>
-                  </li>
-                  <li>
-                    <p>Sivaraman, D., Suthakorn, J., & Ongwattanakul, S. (2022). <strong>Sensorless Based Gravity Torque Estimation and Friction Compensation for Surgical Robotic System.</strong> In 2022 IEEE 9th International Conference on e-Learning in Industrial Electronics (ICELIE), (pp. 1-6). IEEE, Brussels, Belgium.</p>
-                  </li>
-                  <li>
-                    <p>Sivaraman, D., Pillai, B. M., & Ongwattanakul, S. (2022). <strong>Energy Optimized Path Planning and Decision Making for Multiple Robots in Rough Terrain.</strong> The Twenty-Seventh International Symposium on Artificial Life and Robotics 2022 (AROB 27th 2022), The Seventh International Symposium on BioComplexity 2022 (ISBC 7th 2022), The Fifth International Symposium on Swarm Behavior and Bio-Inspired Robotics 2022 (SWARM 5th 2022), ONLINE, January 25-27.</p>
-                  </li>
-                </ul>
-            </section>
-
-                <section id="projects" class="section-content">
-                  <h2>Projects</h2>
-                  
-                  <h3>Faculty of Engineering, Mahidol University</h3>
-                  
-                  <div class="project-category current-projects">
-                    <h4>Current Projects (2025)</h4>
-                    <ul class="project-list">
-                      <li class="project-item current">
-                        <div class="project-header">
-                          <span class="project-title">Bio-inspired needle system with force sensation based on actuation</span>
-                          <span class="project-period">2025-Present</span>
+                    <div class="project-mini-item">
+                        <div class="project-mini-icon"><i class="fas fa-syringe"></i></div>
+                        <div class="project-mini-content">
+                            <h4>Bio-inspired Needle System for Breast Biopsy with Force Estimation</h4>
+                            <p>SMA-based embedded force sensing and adaptive state estimation for a bio-inspired dual-sheath needle system developed for breast biopsy navigation.</p>
+                            <span class="project-mini-period current">2021 &ndash; Present</span>
                         </div>
-                        <div class="project-description">
-                          <p>Developing a novel bio-inspired needle system incorporating force feedback mechanisms to enhance precision in minimally invasive procedures.</p>
+                    </div>
+                    <div class="project-mini-item">
+                        <div class="project-mini-icon"><i class="fas fa-robot"></i></div>
+                        <div class="project-mini-content">
+                            <h4>Multi-Robot Collaboration for Disaster Response</h4>
+                            <p>Kinematic design and workspace optimization of mobile manipulators for multi-task, RoboCup Rescue-style disaster response scenarios.</p>
+                            <span class="project-mini-period current">2026 &ndash; Present</span>
                         </div>
-                      </li>
+                    </div>
+                    <div class="project-mini-item">
+                        <div class="project-mini-icon"><i class="fas fa-sliders-h"></i></div>
+                        <div class="project-mini-content">
+                            <h4>Pole-Placement Control for DC Motor Actuation</h4>
+                            <p>Error-dependent bandwidth shaping and analytical pole placement for precise DC servo motor control in robotic actuation.</p>
+                            <span class="project-mini-period current">Ongoing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <div class="panel">
+                    <div class="section-label section-label-tight">
+                        <h2>Latest News</h2>
+                        <a href="#news">View All News <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <span class="timeline-date">Dec 2025</span>
+                            <p>Served as Section Chair, IEEE ROBIO 2025, Chengdu, China</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">Aug 07, 2025</span>
+                            <p>Paper accepted in Systems Science &amp; Control Engineering (Taylor &amp; Francis)</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">Aug 01, 2025</span>
+                            <p>Joined as Foreign Expert at the Faculty of Engineering, Mahidol University</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">Feb 17, 2025</span>
+                            <p>Successfully defended Ph.D. thesis in Biomedical Engineering</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">Jul 2023</span>
+                            <p>Participated in RoboCup 2023, held in Bordeaux, France</p>
+                        </li>
                     </ul>
-                  </div>
-                  
-                  <div class="project-category previous-projects">
-                    <h4>Previous Projects</h4>
-                    <ul class="project-list">
-                      <li class="project-item">
-                        <div class="project-header">
-                          <span class="project-title">Bio-inspired needle-based Breast Biopsy Using a Novel State Estimation/Prediction Algorithm</span>
-                          <span class="project-period">2022-2024</span>
-                        </div>
-                      </li>
-                      <li class="project-item">
-                        <div class="project-header">
-                          <span class="project-title">e-ASIA Joint Research Program (e-ASIA JRP) Disaster Risk and Reduction Management</span>
-                          <span class="project-period">2022-2023</span>
-                        </div>
-                        <div class="project-description">
-                          <p>Focus areas: Torrential Rainfall, Associated Flood and Land Slide</p>
-                        </div>
-                      </li>
-                      <li class="project-item">
-                        <div class="project-header">
-                          <span class="project-title">Development of Unmanned Aerial Vehicles for Disaster Risk and Reduction Management</span>
-                          <span class="project-period">2022-2023</span>
-                        </div>
-                      </li>
-                      <li class="project-item">
-                        <div class="project-header">
-                          <span class="project-title">Stairclimbing Wheelchair with Navigation and Mapping</span>
-                          <span class="project-period">2022</span>
-                        </div>
-                      </li>
+                </div>
+
+                <div class="panel">
+                    <div class="section-label section-label-tight">
+                        <h2>Academic Journey</h2>
+                        <a href="#achievements">View All Achievements <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <span class="timeline-date">2025</span>
+                            <p><strong>Foreign Expert, Faculty of Engineering</strong><br>Mahidol University, Thailand</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">2025</span>
+                            <p><strong>Ph.D. in Biomedical Engineering</strong><br>Mahidol University, Thailand</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">2023</span>
+                            <p><strong>RoboCup 2023, Bordeaux, France</strong><br>BART LAB Robotics Team</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">2020</span>
+                            <p><strong>Began Ph.D. Studies</strong><br>Mahidol Postgraduate Scholarship</p>
+                        </li>
+                        <li class="timeline-item">
+                            <span class="timeline-date">2012</span>
+                            <p><strong>Integrated M.Sc. in Physics &amp; Mathematics</strong><br>Amrita Vishwa Vidyapeetham University, India</p>
+                        </li>
                     </ul>
-                  </div>
-                  
-                  <div class="project-category consultancy-projects">
-                    <h4>Consultancy Projects</h4>
-                    <ul class="project-list">
-                      <li class="project-item">
-                        <div class="project-header">
-                          <span class="project-title">Mask Material Filtration Efficiency Test</span>
-                          <span class="project-period">2020</span>
-                        </div>
-                        <div class="project-description">
-                          <p>Collaboration with Faculty of Medicine, Siriraj Hospital, Mahidol University</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </section>
+                </div>
+            </div>
 
-                    <section id="teaching" class="section-content">
-                      <h2>Teaching</h2>
-                    
-                      <div class="teaching-category current-teaching">
-                        <h3>Foreign Expert Teaching</h3>
-                        <ul class="teaching-list">
-                          <li class="teaching-item">
-                            <div class="teaching-header">
-                              <span class="teaching-title">Introduction to Medical Robotics</span>
-                              <span class="teaching-period">2025</span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    
-                          <div class="teaching-category current-teaching">
-                            <h3>Doctoral Teaching Assistantship</h3>
-                            <ul class="teaching-list">
-                              <li class="teaching-item">
-                                <div class="teaching-header">
-                                  <span class="teaching-title">Advanced Medical Robotics</span>
-                                  <span class="teaching-period">2025</span>
-                                </div>
-                              </li>
-                              <li class="teaching-item">
-                                <div class="teaching-header">
-                                  <span class="teaching-title">Healthcare Automation Course</span>
-                                  <span class="teaching-period">2023–2024</span>
-                                </div>
-                                <div class="teaching-description">
-                                  <p>Advanced Estimation Techniques in Healthcare Automation: From Kalman Filters to Machine Learning</p>
-                                </div>
-                              </li>
-                              <li class="teaching-item">
-                                <div class="teaching-header">
-                                  <span class="teaching-title">Computational Methods for Biomedical Engineering</span>
-                                  <span class="teaching-period">2023–2024</span>
-                                </div>
-                                <div class="teaching-description">
-                                  <p>Programming in Python for biomedical applications</p>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
+        </section>
 
+        <section id="publications" class="section-content">
+            <h2>Publications</h2>
 
-                      
-                      <div class="teaching-category previous-teaching">
-                        <h3>Previous Teaching Experience</h3>
-                        <ul class="teaching-list">
-                          <li class="teaching-item">
-                            <div class="teaching-header">
-                              <span class="teaching-title">Lecturer</span>
-                              <span class="teaching-period">2017-2019</span>
-                            </div>
-                            <div class="teaching-description">
-                              <p>Shree Vidyadhiraja College of Arts & Science, Karunagappally, Kerala University, Kerala, India</p>
-                            </div>
-                          </li>
-                          <li class="teaching-item">
-                            <div class="teaching-header">
-                              <span class="teaching-title">Programme Officer, National Service Scheme</span>
-                              <span class="teaching-period">2017-2019</span>
-                            </div>
-                            <div class="teaching-description">
-                              <p>Shree Vidyadhiraja College of Arts & Science, Karunagappally, Kerala University, Kerala, India</p>
-                            </div>
-                          </li>
-                          <li class="teaching-item">
-                            <div class="teaching-header">
-                              <span class="teaching-title">Lecturer</span>
-                              <span class="teaching-period">2013-2017</span>
-                            </div>
-                            <div class="teaching-description">
-                              <p>Al-Azhar Group of Institutions, Thodupuzha, Department of Technical Education (DTET) of Kerala, Kerala, India</p>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </section>
+              <h3 class="publication-category journal-category">International Journals</h3>
+              <ul class="publication-list">
+                <li>
+                  <p>Sivaraman, D., Pillai, B. M., Wiratkapun, C., Suthakorn, J., & Ongwattanakul, S. (2025). <strong>Dynamic order selection analysis in adaptive polynomial Kalman filtering: implementation and integration of sensor data and hybrid image processing for bio-inspired needle systems.</strong> Systems Science & Control Engineering, 13(1): 2546839. <a href="https://doi.org/10.1080/21642583.2025.2546839" target="_blank">https://doi.org/10.1080/21642583.2025.2546839</a></p>
+                </li>
+                <li>
+                    <p>Kunapinun, Alisa, et al. (2025). <strong>Toward AI-Powered Neurovascular Intervention: From Imaging to XR-Robotic Convergence.</strong> Stroke.</p>
+                </li>
+                <li>
+                    <p>Sivaraman, D., Pillai, B. M., Ongwattanakul, S., & Suthakorn, J. (2024). <strong>Adaptive Polynomial Predictive Filter for Sensor Data Estimation and Prediction in Interference Environment.</strong> IET Control Theory and Applications.</p>
+                </li>
+                <li>
+                    <p>Sivaraman, D., Ongwattanakul, S., Moonjaita, C., Suthakorn, J., & Madhavan Pillai, B. (2024). <strong>A pack hunting strategy for heterogeneous robots in rescue operations.</strong> Bioinspiration & Biomimetics.</p>
+                </li>
+                <li>
+                    <p>Sivaraman, Dileep, Songpol Ongwattanakul, Branesh M. Pillai, and Jackrit Suthakorn. (2024). <strong>Adaptive polynomial Kalman filter for nonlinear state estimation in modified AR time series with fixed coefficients.</strong> IET Control Theory & Applications.</p>
+                </li>
+                <li>
+                    <p>Pillai, Branesh M., Jackrit Suthakorn, Dileep Sivaraman, et al. (2024). <strong>A heterogeneous robots collaboration for safety, security, and rescue robotics: e-ASIA joint research program for disaster risk and reduction management.</strong> Advanced Robotics 38, no. 3: 129-151.</p>
+                </li>
+                <li>
+                    <p>Pillai, Branesh M., Peerapat Owatchaiyapong, Shen Treratanakulchai, Dileep Sivaraman, et al. (2023). <strong>Lower Limb Exoskeleton With Energy-Storing Mechanism for Spinal Cord Injury Rehabilitation.</strong> IEEE Access 11: 133850-133866.</p>
+                </li>
+                <li>
+                    <p>Sivaraman, Dileep, Songpol Ongwattanakul, Jackrit Suthakorn, and Branesh M. Pillai. (2023). <strong>Nonlinear Dynamic States' Estimation and Prediction Using Polynomial Predictive Modeling.</strong> IEEE Canadian Journal of Electrical and Computer Engineering 46, no. 3: 185-195.</p>
+                </li>
+            </ul>
 
-<section id="achievements" class="section-content">
-  <h2>Achievements</h2>
-  
-  <div class="achievement-category grants">
-    <h3>Scholarships and Grants</h3>
-    <ul class="achievement-list">
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">Mahidol Postgraduate Scholarships for Graduate International Students</span>
-          <span class="achievement-period">2020-2023</span>
-        </div>
-      </li>
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">The Reinventing University System Research Funding</span>
-        </div>
-        <div class="achievement-description">
-          <p>Supported through Mahidol University (IO 864102063000)</p>
-        </div>
-      </li>
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">Research Funding by Mahidol University</span>
-          <span class="achievement-period">2023-2024</span>
-        </div>
-        <div class="achievement-description">
-          <p>Project: Integrating Navigation and Robotics for breast biopsy using Imaging and Models (Pre-Clinic and Clinic Evaluation Phase for Product Commercialization)</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="achievement-category activities">
-    <h3>Professional Activities</h3>
-    <ul class="achievement-list">
-       <li class="achievement-item">
-  <div class="achievement-header">
-    <span class="achievement-title">Reviewer, IEEE Robotics and Automation Letters (RA-L)</span>
-    <span class="achievement-period">Present</span>
-  </div>
-</li>
-<li class="achievement-item">
-  <div class="achievement-header">
-    <span class="achievement-title">Reviewer, International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe)</span>
-    <span class="achievement-period">Present</span>
-  </div>
-</li>
-        
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">Academic Committee Member</span>
-          <span class="achievement-period">November 2025</span>
-        </div>
-        <div class="achievement-description">
-          <p>18th International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe 2025), Bangkok, Thailand</p>
-        </div>
-      </li>
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">RoboCup 2023 Participant</span>
-          <span class="achievement-period">July 2023</span>
-        </div>
-        <div class="achievement-description">
-          <p>Participated in RoboCup 2023 held in Bordeaux, France, as a member of the BART LAB ROBOTICS Team</p>
-        </div>
-      </li>
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">Technical Volunteer</span>
-          <span class="achievement-period">2022</span>
-        </div>
-        <div class="achievement-description">
-          <p>RoboCup 2022, Bangkok</p>
-        </div>
-      </li>
-      <li class="achievement-item">
-        <div class="achievement-header">
-          <span class="achievement-title">Volunteer (Flood relief)</span>
-          <span class="achievement-period">2018</span>
-        </div>
-        <div class="achievement-description">
-          <p>Plan International (India Chapter), Kerala, India</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-        </main>
+              <h3 class="publication-category book-category">Book Chapter</h3>
+              <ul class="publication-list">
+                <li>
+                    <p>Sivaraman, D., Pillai, B. M., Suthakorn, J., & Ongwattanakul, S. (2024). <strong>Human–Robot Interaction in Biopsy Procedures: A Biomimetic Dual-Sheath Needle Design Inspired by Insect Ovipositor Mechanics.</strong> In Discovering the Frontiers of Human-Robot Interaction: Insights and Innovations in Collaboration, Communication, and Control (pp. 401-417). Springer Nature Switzerland.</p>
+                </li>
+            </ul>
 
-<footer>
-    <!-- Visitor Map -->
-    <div class="visitor-map">
-        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=YOUR_MAP_ID&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=808080"></script>
+              <h3 class="publication-category conference-category">Conference Proceedings</h3>
+              <ul class="publication-list">
+              <li>
+                <p>Sivaraman, D., Wiratkapun, C., Pillai, B. M., Suthakorn, J., & Ongwattanakul, S. (2025). <strong>Shape Memory Alloy Spring-Based Force Sensing System for Dual-Sheath Surgical Needle.</strong> In 2025 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO). IEEE, Chengdu, China.</p>
+              </li>
+              <li>
+                <p>Moonjaita, Choladawan, et al. (2025). <strong>Ground Reaction Force Analysis of Robot-Assisted Walking Using Inertial Sensors.</strong> In 2025 18th International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe). IEEE.</p>
+              </li>
+              <li>
+                <p>Sivaraman, D., Wiratkapun, C., Pillai, B. M., Suthakorn, J., Methachan, B., Nakdhamabhorn, S., & Ongwattanakul, S. (2024). <strong>Hybrid image-based motion tracking and adaptive polynomial Kalman filter for a bio-inspired dual-sheath needle system.</strong> In 2024 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO). IEEE, Bangkok, Thailand.</p>
+              </li>
+              <li>
+                <p>Pillai, B. M., Siripala, N., Sai-aroon, K., Sivaraman, D., Vinjamuri, R., Chumnanvej, S., & Suthakorn, J. (2024). <strong>Enhancing post-stroke upper limb rehabilitation through haptic feedback in virtual reality-based gaming.</strong> In 2024 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO). IEEE, Bangkok, Thailand.</p>
+              </li>
+              <li>
+                <p>Sivaraman, D., Ongwattanakul, S., & Suthakorn, J. (2023). <strong>Adaptive Polynomial Predictive Filter: Solving Inconsistent and Interrupted Sensor Data Challenges.</strong> In 2023 IEEE International Conference on Robotics and Biomimetics (ROBIO). Ko Samui, Thailand.</p>
+              </li>
+              <li>
+                <p>Sivaraman, D., Pillai, B. M., & Ongwattanakul, S. (2022). <strong>Energy Optimized Path Planning and Decision Making for Multiple Robots in Rescue Operations.</strong> In IECON 2022–48th Annual Conference of the IEEE Industrial Electronics Society (pp. 1-6). IEEE, Brussels, Belgium.</p>
+              </li>
+              <li>
+                <p>Sivaraman, D., Suthakorn, J., & Ongwattanakul, S. (2022). <strong>Sensorless Based Gravity Torque Estimation and Friction Compensation for Surgical Robotic System.</strong> In 2022 IEEE 9th International Conference on e-Learning in Industrial Electronics (ICELIE), (pp. 1-6). IEEE, Brussels, Belgium.</p>
+              </li>
+              <li>
+                <p>Sivaraman, D., Pillai, B. M., & Ongwattanakul, S. (2022). <strong>Energy Optimized Path Planning and Decision Making for Multiple Robots in Rough Terrain.</strong> The Twenty-Seventh International Symposium on Artificial Life and Robotics 2022 (AROB 27th 2022), The Seventh International Symposium on BioComplexity 2022 (ISBC 7th 2022), The Fifth International Symposium on Swarm Behavior and Bio-Inspired Robotics 2022 (SWARM 5th 2022), ONLINE, January 25-27.</p>
+              </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section-content">
+          <h2>Projects</h2>
+
+          <h3>Faculty of Engineering, Mahidol University</h3>
+
+          <div class="project-category current-projects">
+            <h4>Current Projects</h4>
+            <ul class="project-list">
+              <li class="project-item current">
+                <div class="project-header">
+                  <span class="project-title">Bio-inspired Needle System for Breast Biopsy with Force Estimation</span>
+                  <span class="project-period">2021-Present</span>
+                </div>
+                <div class="project-description">
+                  <p>Developing an SMA-based embedded force sensing mechanism and adaptive state estimation framework for a bio-inspired dual-sheath needle system, originally developed for breast biopsy navigation. Supervised by Dr. Songpol Ongwattanakul and Dr. Jackrit Suthakorn (BART LAB), with Prof. Cholatip Wiratkapun (Department of Radiology, Ramathibodi Hospital) as clinical co-advisor.</p>
+                </div>
+              </li>
+              <li class="project-item current">
+                <div class="project-header">
+                  <span class="project-title">Multi-Robot Collaboration for Disaster Response &ndash; Task-Oriented Link Length Optimization for Mobile Manipulators</span>
+                  <span class="project-period">2026-Present</span>
+                </div>
+                <div class="project-description">
+                  <p>Kinematic design and workspace optimization of mobile manipulators for multi-task disaster response, applied to RoboCup Rescue-style manipulation tasks with an emphasis on real-world deployability.</p>
+                </div>
+              </li>
+              <li class="project-item current">
+                <div class="project-header">
+                  <span class="project-title">Pole-Placement Control for DC Motor Actuation</span>
+                  <span class="project-period">Ongoing</span>
+                </div>
+                <div class="project-description">
+                  <p>Investigating error-dependent bandwidth shaping and analytical pole placement for precise closed-loop control of brushed DC servo motors, supporting actuation design for robotic and medical devices. (Manuscript submitted to Mechatronics.)</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-category previous-projects">
+            <h4>Previous Projects</h4>
+            <ul class="project-list">
+              <li class="project-item">
+                <div class="project-header">
+                  <span class="project-title">e-ASIA Joint Research Program (e-ASIA JRP) Disaster Risk and Reduction Management</span>
+                  <span class="project-period">2022-2023</span>
+                </div>
+                <div class="project-description">
+                  <p>Multidisciplinary international collaboration with Kazan Federal University (Russia) and Kyoto University (Japan) on robotic and AI-driven strategies for disaster response.</p>
+                </div>
+              </li>
+              <li class="project-item">
+                <div class="project-header">
+                  <span class="project-title">Development of Unmanned Aerial Vehicles for Disaster Risk and Reduction Management</span>
+                  <span class="project-period">2022-2023</span>
+                </div>
+              </li>
+              <li class="project-item">
+                <div class="project-header">
+                  <span class="project-title">Stairclimbing Wheelchair with Navigation and Mapping</span>
+                  <span class="project-period">2022</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-category consultancy-projects">
+            <h4>Consultancy Projects</h4>
+            <ul class="project-list">
+              <li class="project-item">
+                <div class="project-header">
+                  <span class="project-title">Mask Material Filtration Efficiency Test</span>
+                  <span class="project-period">2020</span>
+                </div>
+                <div class="project-description">
+                  <p>Collaboration with Faculty of Medicine, Siriraj Hospital, Mahidol University</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="news" class="section-content">
+            <h2>News</h2>
+            <ul class="timeline timeline-full">
+                <li class="timeline-item">
+                    <span class="timeline-date">Dec 3&ndash;7, 2025</span>
+                    <p>Served as Section Chair at the 2025 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO), Chengdu, China, supported by a Faculty of Engineering Travel Grant</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Nov 2025</span>
+                    <p>Appointed Academic Committee Member for the 18th International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe 2025), Bangkok, Thailand</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Aug 07, 2025</span>
+                    <p>Paper accepted in <em>Systems Science &amp; Control Engineering</em> (Taylor &amp; Francis) titled "Dynamic Order Selection Analysis in Adaptive Polynomial Kalman Filtering: Implementation and Integration of Sensor Data and Hybrid Image Processing for Bioinspired Needle Systems"</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Aug 01, 2025</span>
+                    <p>Joined as Foreign Expert at the Faculty of Engineering, Mahidol University</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Feb 17, 2025</span>
+                    <p>Successfully defended Ph.D. thesis in Biomedical Engineering at Mahidol University</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Jan 2024</span>
+                    <p>Published "Adaptive Polynomial Predictive Filter for Sensor Data Estimation and Prediction in Interference Environment" in IET Control Theory and Applications</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Jan 2024</span>
+                    <p>Published "A pack hunting strategy for heterogeneous robots in rescue operations" in Bioinspiration &amp; Biomimetics</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">Jul 2023</span>
+                    <p>Participated in RoboCup 2023 held in Bordeaux, France as a member of the BART LAB ROBOTICS Team</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="teaching" class="section-content">
+          <h2>Teaching</h2>
+
+          <div class="teaching-category current-teaching">
+            <h3>Foreign Expert Teaching</h3>
+            <ul class="teaching-list">
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">EGBI481: Introduction to Medical Robotics</span>
+                  <span class="teaching-period">2025</span>
+                </div>
+                <div class="teaching-description">
+                  <p>UG (BME) &middot; Shared with Prof. Jackrit Suthakorn</p>
+                </div>
+              </li>
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">EGBE680: Advanced Medical Robotics</span>
+                  <span class="teaching-period">2026</span>
+                </div>
+                <div class="teaching-description">
+                  <p>PG (BME) &middot; Shared with Prof. Jackrit Suthakorn</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="teaching-category current-teaching">
+            <h3>Adjacent Faculty &ndash; Asian Institute of Technology (AIT), Thailand</h3>
+            <ul class="teaching-list">
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">Self-Driving Vehicles in Smart City</span>
+                  <span class="teaching-period">2026</span>
+                </div>
+                <div class="teaching-description">
+                  <p>PG &middot; Shared with Dr. Branesh Madhavan Pillai</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="teaching-category previous-teaching">
+            <h3>Doctoral Teaching Assistantship</h3>
+            <ul class="teaching-list">
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">Computational Methods for Biomedical Engineering</span>
+                  <span class="teaching-period">2023–2024</span>
+                </div>
+                <div class="teaching-description">
+                  <p>UG (BME) &middot; Programming in Python for biomedical applications &middot; Shared with Dr. Songpol Ongwattanakul</p>
+                </div>
+              </li>
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">Healthcare Automation</span>
+                  <span class="teaching-period">2024</span>
+                </div>
+                <div class="teaching-description">
+                  <p>PG (BME) &middot; Advanced Estimation Techniques in Healthcare Automation: From Kalman Filters to Machine Learning &middot; Shared with Dr. Songpol Ongwattanakul</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="teaching-category previous-teaching">
+            <h3>Academic and Professional Appointments</h3>
+            <ul class="teaching-list">
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">Lecturer, Department of Physics</span>
+                  <span class="teaching-period">2017-2019</span>
+                </div>
+                <div class="teaching-description">
+                  <p>Shree Vidyadhiraja College of Arts & Science, Karunagappally, Kerala University, Kerala, India</p>
+                </div>
+              </li>
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">Programme Officer, National Service Scheme</span>
+                  <span class="teaching-period">2017-2019</span>
+                </div>
+                <div class="teaching-description">
+                  <p>Shree Vidyadhiraja College of Arts & Science, Karunagappally, Kerala University, Kerala, India</p>
+                </div>
+              </li>
+              <li class="teaching-item">
+                <div class="teaching-header">
+                  <span class="teaching-title">Lecturer</span>
+                  <span class="teaching-period">2013-2017</span>
+                </div>
+                <div class="teaching-description">
+                  <p>Al-Azhar Group of Institutions, Thodupuzha, Department of Technical Education (DTET) of Kerala, Kerala, India</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="achievements" class="section-content">
+          <h2>Achievements</h2>
+
+          <div class="achievement-category grants">
+            <h3>Fellowships, Grants &amp; Academic Support</h3>
+            <ul class="achievement-list">
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Travel Grant, Faculty of Engineering, Mahidol University</span>
+                  <span class="achievement-period">Dec 2025</span>
+                </div>
+                <div class="achievement-description">
+                  <p>To attend and present at the IEEE International Conference on Robotics and Biomimetics (ROBIO 2025), Chengdu, China</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Mahidol Postgraduate Scholarships for Graduate International Students</span>
+                  <span class="achievement-period">2020-2023</span>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">The Reinventing University System Research Funding</span>
+                </div>
+                <div class="achievement-description">
+                  <p>Supported through Mahidol University (IO 864102063000)</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Research Funding by Mahidol University</span>
+                  <span class="achievement-period">2023-2024</span>
+                </div>
+                <div class="achievement-description">
+                  <p>Project: Integrating Navigation and Robotics for breast biopsy using Imaging and Models (Pre-Clinic and Clinic Evaluation Phase for Product Commercialization)</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="achievement-category activities">
+            <h3>Professional Activities</h3>
+            <ul class="achievement-list">
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Section Chair, IEEE ROBIO 2025</span>
+                  <span class="achievement-period">Dec 2025</span>
+                </div>
+                <div class="achievement-description">
+                  <p>2025 IEEE International Conference on Robotics and Biomimetics, Chengdu, China</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">IOP Peer Review Excellence Certificate</span>
+                  <span class="achievement-period">2025</span>
+                </div>
+                <div class="achievement-description">
+                  <p>Institute of Physics Publishing</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Reviewer, IEEE Robotics and Automation Letters (RA-L)</span>
+                  <span class="achievement-period">Present</span>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Reviewer, International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe)</span>
+                  <span class="achievement-period">Present</span>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Academic Committee Member</span>
+                  <span class="achievement-period">November 2025</span>
+                </div>
+                <div class="achievement-description">
+                  <p>18th International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe 2025), Bangkok, Thailand</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">RoboCup 2023 Participant</span>
+                  <span class="achievement-period">July 2023</span>
+                </div>
+                <div class="achievement-description">
+                  <p>Participated in RoboCup 2023 held in Bordeaux, France, as a member of the BART LAB ROBOTICS Team</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Technical Volunteer</span>
+                  <span class="achievement-period">2022</span>
+                </div>
+                <div class="achievement-description">
+                  <p>RoboCup 2022, Bangkok</p>
+                </div>
+              </li>
+              <li class="achievement-item">
+                <div class="achievement-header">
+                  <span class="achievement-title">Volunteer (Flood relief)</span>
+                  <span class="achievement-period">2018</span>
+                </div>
+                <div class="achievement-description">
+                  <p>Plan International (India Chapter), Kerala, India</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="contact" class="section-content contact-section">
+            <h2>Contact</h2>
+            <p>I am actively seeking research collaborations in medical robotics, sensor fusion, and control systems, and I am always happy to hear from prospective students or collaborators.</p>
+            <div class="info-items">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Faculty of Engineering, Mahidol University<br>
+                    25/25 Puttamonthon 4 Road<br>
+                    Salaya, Nakorn Pathom 73170, Thailand</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>dileepsivaraman89@gmail.com<br>dileep.siv@mahidol.ac.th</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="mailto:dileepsivaraman89@gmail.com" class="btn btn-dark"><i class="fas fa-envelope"></i> Email Me</a>
+                <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <a href="https://github.com/dileepsivaraman007" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+
     </div>
-    
-    <div class="social-links">
-        <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        <a href="mailto:dileepsivaraman89@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-        <a href="cv.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>
-    </div>
-    <p>© 2025 Dileep Sivaraman. All rights reserved.</p>
-</footer>
-    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Faculty of Engineering, Mahidol University<br>25/25 Puttamonthon 4 Road<br>Salaya, Nakorn Pathom 73170, Thailand</p>
+                <p><i class="fas fa-envelope"></i> dileep.siv@mahidol.ac.th</p>
+                <p><i class="fas fa-envelope"></i> dileepsivaraman89@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <div class="footer-links-grid">
+                    <a href="#home">Home</a>
+                    <a href="#research">Research</a>
+                    <a href="#publications">Publications</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#teaching">Teaching</a>
+                    <a href="#achievements">Achievements</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Me</h4>
+                <div class="footer-social">
+                    <a href="https://github.com/dileepsivaraman007" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=R_I4Ut0AAAAJ&hl=en&oi=ao" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="mailto:dileepsivaraman89@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visitor Map -->
+        <div class="visitor-map">
+            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=YOUR_MAP_ID&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=808080"></script>
+        </div>
+
+        <p class="footer-copy">© 2025 Dileep Sivaraman. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>

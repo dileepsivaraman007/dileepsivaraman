@@ -175,7 +175,7 @@ li {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 180px 1fr;
     gap: 40px;
     align-items: center;
     background: linear-gradient(120deg, #eef2fb, #f7f9fd);

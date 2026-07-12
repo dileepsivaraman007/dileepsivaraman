@@ -648,17 +648,19 @@ li {
     margin-bottom: 0;
 }
 
-.timeline-full {
-    padding-left: 26px;
+.timeline-scroll {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 
-.timeline-full .timeline-date {
-    font-size: 0.88rem;
+.timeline-scroll::-webkit-scrollbar {
+    width: 6px;
 }
 
-.timeline-full .timeline-item p {
-    font-size: 0.92rem;
-    color: var(--text-dark);
+.timeline-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 3px;
 }
 
 /* ============ Publication List (detail section) ============ */
